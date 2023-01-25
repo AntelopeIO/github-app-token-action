@@ -10,7 +10,7 @@
   "scripts": {
     "prebuild": "tsc --build",
     "build": "ncc build src/index.ts --minify  --target es2021 --v8-cache",
-    "prettier": "prettier --ignore-path .gitignore \"./**/*.{cjs,js,json,ts,yml}\"",
+    "prettier": "prettier --ignore-path .gitignore \"./**/*.{cjs,js,ts,yml}\"",
     "xo": "xo"
   },
   "dependencies": {
@@ -35,5 +35,8 @@
     "typescript": "^4.8.4",
     "xo": "^0.52.4",
     "yarn-deduplicate": "^5.0.0"
+  },
+  "resolutions": {
+    "json5": "^1.0.2 || ^2.2.2"
   }
 }
