@@ -7,7 +7,7 @@ import { fetchInstallationToken } from "./fetch-installation-token.js";
 
 const run = async () => {
   try {
-    const rawPackageJson = readFileSync("../package.json", {
+    const rawPackageJson = readFileSync("package.json", {
       encoding: "utf8",
     });
     const { version } = JSON.parse(rawPackageJson) as { version: string };
