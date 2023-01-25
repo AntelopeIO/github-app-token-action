@@ -1,6 +1,6 @@
 {
   "name": "github-app-token",
-  "version": "1.7.1-rc4",
+  "version": "1.7.1-rc5",
   "license": "MIT",
   "type": "module",
   "files": [
